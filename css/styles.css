@@ -5,6 +5,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Primary Navigation */
 h1 {
     color: white;
 }
@@ -35,8 +36,12 @@ h1 {
 .primary-navigation a {
     text-decoration: none;
     color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
+/* Hero Section */
 .main-content {
     background-image: url(../img/showcase.jpg);
     padding: 5rem 11rem 10rem;
@@ -59,6 +64,7 @@ h1 {
     font-size: 1.2rem;
 }
 
+ /* Newsletter Section */
 .newsletter {
     background-color: #35424a;
     color: white;
@@ -72,10 +78,14 @@ h1 {
 .newsletter button {
     font-weight: 500;
     height: 2rem;
+    border-radius: 8px;
 }
 
 .newsletter input {
     width: 17rem;
+    padding: 1rem;
+    border: none;
+
 }
 
 .newsletter button {
@@ -83,11 +93,11 @@ h1 {
     color: white;
     background-color: #E8491C;
     border: 0;
+    margin-left: 0.5rem;
 }
 
 .icons {
     display: flex;
-    justify-content: space-between;
     text-align: center;
     padding: 30px 150px;
 }
@@ -101,6 +111,7 @@ h1 {
     height: 90px;
 }
 
+/* Main Icons Section */
 footer {
     background-color: #E8491C;
     text-align: center;
