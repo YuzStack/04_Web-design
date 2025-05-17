@@ -1,0 +1,32 @@
+/* Main Content */
+.about-main-content {
+    padding: 1.5rem 10rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+}
+
+.about-main-content h2 {
+    margin-bottom: 1.5rem;
+}
+
+.about-main-content p {
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.deep-gray-bg {
+    margin-top: 1.5rem;
+    background-color: #35424a;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.what-we-do {
+    background-color: #35424a;
+    color: white;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    max-height: 12.5rem;
+}
