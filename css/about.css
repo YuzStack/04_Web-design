@@ -1,9 +1,19 @@
 /* Main Content */
 .about-main-content {
     padding: 1.5rem 10rem;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    display: flex;
+    align-items: center;
     gap: 4rem;
+
+    @media (max-width: 768px) {
+        padding: 2rem;
+        flex-wrap: wrap;
+    }
+
+    @media (max-width: 1280px) and (min-width: 768px) {
+        padding: 5rem;
+        flex-wrap: wrap;
+    }
 }
 
 .about-main-content h2 {
@@ -28,5 +38,5 @@
     color: white;
     padding: 2rem 1rem;
     border-radius: 8px;
-    max-height: 12.5rem;
+    max-height: auto;
 }
